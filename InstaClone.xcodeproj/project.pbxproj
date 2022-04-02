@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		175ADE758EEFD7A35915B2E4 /* Pods_InstaClone_InstaCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902232E55354116315BBB364 /* Pods_InstaClone_InstaCloneUITests.framework */; };
 		6A0713FFD595DA6E0CDC965F /* Pods_InstaCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA39310726FC549BC9A99C5D /* Pods_InstaCloneTests.framework */; };
+		9453A6BE27F8063300665354 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9453A6BD27F8063300665354 /* CommentCell.swift */; };
 		94AF90CC27ED157E005531D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF90CB27ED157E005531D7 /* AppDelegate.swift */; };
 		94AF90CE27ED157E005531D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF90CD27ED157E005531D7 /* SceneDelegate.swift */; };
 		94AF90D327ED157E005531D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94AF90D127ED157E005531D7 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		5CCBAE9954720ACDC817DFFD /* Pods-InstaClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaClone.debug.xcconfig"; path = "Target Support Files/Pods-InstaClone/Pods-InstaClone.debug.xcconfig"; sourceTree = "<group>"; };
 		7886F52B81BB1496FDB74650 /* Pods_InstaClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		902232E55354116315BBB364 /* Pods_InstaClone_InstaCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaClone_InstaCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9453A6BD27F8063300665354 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		94AF90C827ED157E005531D7 /* InstaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94AF90CB27ED157E005531D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94AF90CD27ED157E005531D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				94AF90FD27ED1ABA005531D7 /* FeedViewController.swift */,
 				94AF90FF27ED2120005531D7 /* CameraViewController.swift */,
 				94AF910127ED2E92005531D7 /* PostCell.swift */,
+				9453A6BD27F8063300665354 /* CommentCell.swift */,
 			);
 			path = InstaClone;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				94AF90FE27ED1ABA005531D7 /* FeedViewController.swift in Sources */,
 				94AF90CE27ED157E005531D7 /* SceneDelegate.swift in Sources */,
 				94AF910227ED2E92005531D7 /* PostCell.swift in Sources */,
+				9453A6BE27F8063300665354 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
